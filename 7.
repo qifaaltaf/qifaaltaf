@@ -1,0 +1,8 @@
+#Program to check whether a character is an alphabet or not.
+#Code by:Qifa altaf.
+c=input("Enter any Character:")
+
+if (c >= "a" and c <="z") :
+    print(c,"is an alphabet.")
+else :
+    print(c,"is not an alphabet.")
