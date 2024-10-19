@@ -1,0 +1,9 @@
+#program to check if an alphabet is a vowel or a consonant.
+#Code by:Qifa altaf.
+c=input("Enter any character: ")
+
+if (c=='a' or c=='e' or c=='i' or c=='o' or c=='u') :
+    print(c,"is a vowel.")
+else :
+    print(c,"is a consonant.")
+
