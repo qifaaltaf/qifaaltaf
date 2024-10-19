@@ -1,0 +1,8 @@
+#To check whether an alphabet is uppercase or lowercase.
+#Code by:Qifa altaf.
+c=input("Enter any character:")
+
+if (c >='a' and c <='z') :
+    print(c,"is a lowercase alphabet.")
+else :
+    print(c,"is an uppercase alphabet.")
