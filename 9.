@@ -1,0 +1,10 @@
+#Program to check if a character is an alphabet, digit or special character.
+#Code by:Qifa altaf.
+c=input("Enter any character: ")
+
+if (c >='a' and c <='z' or c >='A' and c <='Z' ) :
+    print(c,"is an alphabet.")
+elif (c>='0' and c<='9') :
+    print(c,"is a digit.")
+else :
+    print(c,"is a special character.")
