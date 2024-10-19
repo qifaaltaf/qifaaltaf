@@ -1,0 +1,8 @@
+#Program to check whether a number is even or odd.
+#Code by:Qifa altaf.
+e=int(input("Enter any number:"))
+r= e%2
+if (r == 0) :
+    print(e,"is an even number")
+else :
+    print(e,"is an odd number")
