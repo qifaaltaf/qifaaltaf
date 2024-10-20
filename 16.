@@ -1,0 +1,12 @@
+#Program to check whether the triangle is equilateral, isosceles or scalene.
+#Code by:Qifa altaf.
+Side1=int(input("Enter first Side:"))
+Side2=int(input("Enter second Side:"))
+Side3=int(input("Enter third Side:"))
+
+if (Side1 == Side2 and Side2 == Side3) :
+    print("The given triangle is an equilateral triangle.")
+elif (side1 == Side2 or Side1 == Side3 or Side2 == Side3) :
+    print("The given triangle is an isosceles trianlge.")
+else :
+    print("The given triangle is a scalene triangle.")
