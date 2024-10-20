@@ -1,0 +1,42 @@
+#Program to input month number and print number of days in that month.
+Code by:Qifa altaf
+m=int(input("Enter any number between 1-12:"))
+
+if (m == 1) :
+    print("January.")
+    print("It has 31 days")
+elif (m == 2) :
+    print("Febuary.")
+    print("It has 28-29 days")
+elif (m == 3) :
+    print("March")
+    print("It has 31 days")
+elif  (m == 4) :
+    print("April.")
+    print("It has 30 days")
+elif  (m == 5) :
+    print("May.")
+    print("It has 31 days")
+elif  (m == 6) :
+    print("June.")
+    print("It has 30 days")
+elif  (m == 7) :
+    print("July.")
+    print("It has 31 days")
+elif  (m == 8) :
+    print("August.")
+    print("It has 31 days")
+elif  (m == 9) :
+    print("September.")
+    print("It has 30 days")
+elif  (m == 10) :
+    print("October.")
+    print("It has 31 days")
+elif  (m ==11) :
+    print("November.")
+    print("It has 30 days")
+elif  (m == 12) :
+    print("December.")
+    print("It has 31 days")
+else :
+    print("Please enter  number between 1 - 12")
