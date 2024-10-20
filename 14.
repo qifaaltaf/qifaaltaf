@@ -1,0 +1,12 @@
+#Program to check validity of a triangle through given angles.
+#Code by:Qifa altaf
+Angle1=int(input("Enter First Angle:"))
+Angle2=int(input("Enter Second Angle:"))
+Angle3=int(input("Enter Third Angle:"))
+sum=Angle1+Angle2+Angle3
+
+if(sum == 180 and Angle1 > 0 and Angle2 > 0 and Angle3 > 0) :
+    print("The triangle is valid.")
+else :
+    print("The triangle is not valid.")
+    
