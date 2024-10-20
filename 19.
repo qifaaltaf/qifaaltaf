@@ -1,0 +1,24 @@
+#Marksheet
+#Code by:Qifa altaf
+m_phy=int(input("Enter marks in phy:"))
+m_chem=int(input("Enter marks in chem:"))
+m_bio=int(input("Enter marks in Social bio:"))
+m_maths=int(input("Enter marks in maths:"))
+m_comp=int(input("Enter marks in comp:"))
+total=m_phy+m_chem+m_bio+m_maths+m_comp
+print("grand total of marks:", total, "out of 500")
+#find percentage
+p=(total/500)*100
+print("You've got",p,"%")
+if (p>=90) :
+    print("You passed with 'A' grade!")
+elif (p>=80) :
+    print("You passed with 'B' grade:)")
+elif (p>=70) :
+    print("You passed with 'C' grade:)")
+elif (p>=60) :
+    print("You passed with 'D' grade:)")
+elif (p>=40) :
+    print("You passed with 'E' grade:)")
+else :
+    print("You have got 'F' grade:(")
