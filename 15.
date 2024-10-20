@@ -1,0 +1,13 @@
+#Program to check the validity of a triangle based on given sides.
+#Code by:Qifa altaf
+Side1=int(input("Enter First Side:"))
+Side2=int(input("Enter Second Side:"))
+Side3=int(input("Enter Third Side:"))
+Property1=Side1+Side2
+Property2=Side2+Side3
+Property3=Side1+Side3
+
+if (Property1 > Side3 or Property2 > Side1 or Property3 > Side2) :
+    print("The given triangle is valid.")
+else :
+    print("The given triangle is not valid.")
