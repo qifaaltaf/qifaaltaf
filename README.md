@@ -2,7 +2,7 @@
 #Code by :Qifa altaf
 unit=int(input("Enter units consumed:"))
 
-if (unit <= 150) :
+if (unit <= 50) :
     amount=unit*0.5
     print("Amount to be paid is",amount)
 elif (unit <= 150):
